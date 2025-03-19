@@ -1,0 +1,28 @@
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\appsettings.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\Luxury Ride Trader.staticwebassets.runtime.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\Luxury Ride Trader.exe
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\Luxury Ride Trader.deps.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\Luxury Ride Trader.runtimeconfig.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\Luxury Ride Trader.dll
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\bin\Debug\net8.0\Luxury Ride Trader.pdb
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.AssemblyInfoInputs.cache
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.AssemblyInfo.cs
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.csproj.CoreCompileInputs.cache
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.RazorAssemblyInfo.cache
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.RazorAssemblyInfo.cs
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\staticwebassets\msbuild.Luxury Ride Trader.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\staticwebassets\msbuild.build.Luxury Ride Trader.props
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Luxury Ride Trader.props
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Luxury Ride Trader.props
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\scopedcss\bundle\Luxury Ride Trader.styles.css
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.dll
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\refint\Luxury Ride Trader.dll
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.pdb
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\Luxury Ride Trader.genruntimeconfig.cache
+C:\Users\RalphRAGE64bit\Documents\Luxury Ride Trader\obj\Debug\net8.0\ref\Luxury Ride Trader.dll

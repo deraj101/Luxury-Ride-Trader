@@ -1,0 +1,68 @@
+/* _content/Luxury Ride Trader/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* _Layout.cshtml.css */
+
+body[b-pbzkxaprne] {
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.navbar-brand[b-pbzkxaprne] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  font-weight: bolder;
+}
+
+a.navbar-brand[b-pbzkxaprne]::first-letter {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: skyblue;
+}
+
+ul.navbar-nav[b-pbzkxaprne] {
+  font-weight: bold;
+}
+
+ul.dropdown-menu[b-pbzkxaprne] {
+  font-weight: 300;
+}
+
+.navbar-nav[b-pbzkxaprne] {
+  margin-left: auto; 
+}
+
+.navbar-nav .nav-item[b-pbzkxaprne] {
+  margin-left: 15px; 
+}
+
+.navbar-nav .nav-item .nav-link:hover[b-pbzkxaprne] {
+  color: tomato; 
+}
+
+.nav-pills .nav-link.active[b-pbzkxaprne], .nav-pills .show > .nav-link[b-pbzkxaprne] {
+  color: #fff;
+}
+
+.border-top[b-pbzkxaprne] {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-pbzkxaprne] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-pbzkxaprne] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.container-footer[b-pbzkxaprne] {
+  text-align: center;
+}
+
+.footer[b-pbzkxaprne] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LUXURY RIDE TRADER</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/_Layout.cshtml.css" asp-append-version="true" />
+    <style>
+body {
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;  
+}
+
+header {
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+header .navbar {
+   background-color: #fff !important;
+  
+}
+
+
+header .navbar .navbar-brand {
+    color: #1c1c1c !important; /* Use !important as a last resort */
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  font-weight: bolder;
+}
+
+a.navbar-brand::first-letter {
+  font-size: 1.9rem;
+  font-style: italic;
+  color: dodgerblue;
+}
+
+ul.navbar-nav {
+  font-weight: bold;
+}
+
+ul.dropdown-menu {
+  font-weight: 300;
+}
+
+.navbar-nav {
+  margin-left: auto; 
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px; 
+}
+
+.navbar-nav .nav-link {
+    color: #1c1c1c !important;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: dodgerblue !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.container-footer {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+    </style>
+</head>
+<body> 
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">LUXURY RIDE TRADER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+        <a class="nav-link @(ViewData["Title"] == "Home Page" ? "active" : "")" href="@Url.Action("Index", "Home")">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @(ViewData["Title"] == "About Us" ? "active" : "")" href="@Url.Action("Index", "About")">About Us</a>
+    </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle @(ViewData["Title"] == "Cars" ? "active" : "")" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Cars
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item @(ViewData["Title"] == "All Cars" ? "active" : "")" href="@Url.Action("Index", "Product", new { category = (string?)null })">All</a></li>
+        <li><a class="dropdown-item @(ViewData["Title"] == "Toyota" ? "active" : "")" href="@Url.Action("Index", "Product", new { category = "Toyota" })">Toyota</a></li>
+        <li><a class="dropdown-item @(ViewData["Title"] == "Honda" ? "active" : "")" href="@Url.Action("Index", "Product", new { category = "Honda" })">Honda</a></li>
+        <li><a class="dropdown-item @(ViewData["Title"] == "Ford" ? "active" : "")" href="@Url.Action("Index", "Product", new { category = "Ford" })">Ford</a></li>
+        <li><a class="dropdown-item @(ViewData["Title"] == "Nissan" ? "active" : "")" href="@Url.Action("Index", "Product", new { category = "Nissan" })">Nissan</a></li>
+    </ul>
+</li>
+    <li class="nav-item">
+        <a class="nav-link @(ViewData["Title"] == "Contact" ? "active" : "")" href="@Url.Action("Index", "Contact")">Contact</a>
+    </li>
+</ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container-footer">
+            &copy; 2025 - LUXURYRIDETRADER. All Rights Reserved
+        </div>
+    </footer>
+    
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

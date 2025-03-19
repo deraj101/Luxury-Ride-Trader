@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #f8f9fa;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 15px; /* Spacing between cards */
+  padding: 15px; /* Inner padding */
+  text-align: center; /* Center text */
+  transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.product-item:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.product-item img {
+  border-radius: 10px; /* Rounded image corners */
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.product-item h4 {
+  font-size: 1.25rem; /* Larger font size for product name */
+  margin: 10px 0; /* Spacing above and below */
+}
+
+.product-item p {
+  font-size: 1rem; /* Standard font size for description */
+  color: #555; /* Darker text color for description */
+}
+
+.product-item .price {
+  font-size: 1.2rem;
+  color: #d9534f; 
+  font-weight: bold; 
+}
+
+.carousel-item {
+  height: 100vh; /* Set the height of the carousel item */
+  width: 100%; /* Set the width of the carousel item */
+}

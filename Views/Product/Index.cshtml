@@ -1,0 +1,18 @@
+<!-- Views/Product/Index.cshtml -->
+@model IEnumerable<LuxuryRideTrader.Models.Product>
+
+@{
+    ViewBag.Title = "Luxury Ride Trader";
+}
+
+<div class="product-list">
+    @foreach (var product in Model)
+    {
+            <div class="product-item">
+                <img src="@Url.Content(product.ImageUrl)" alt="@product.Name" style="width:210px;height:170px;" />
+                <h4>@product.Name</h4>
+                <p>@product.Description</p>
+                <p class="price">Price: ₱@product.Price</p>
+            </div>
+    }
+</div>
